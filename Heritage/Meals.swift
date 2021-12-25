@@ -11,7 +11,7 @@ class Meals: ObservableObject {
     let food: [Meal]
     
     var primary: Meal {
-        food[1]
+        food[0]
     }
     
     init() {

@@ -14,6 +14,7 @@
 		2016FB502774F30F00E3BDBA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2016FB4F2774F30F00E3BDBA /* Preview Assets.xcassets */; };
 		20D897F32776BE840008D63E /* Meals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D897F22776BE840008D63E /* Meals.swift */; };
 		20D897F52776C58E0008D63E /* meals.json in Resources */ = {isa = PBXBuildFile; fileRef = 20D897F42776C58E0008D63E /* meals.json */; };
+		20D897F72777C9E50008D63E /* WorldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D897F62777C9E50008D63E /* WorldView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		2016FB4F2774F30F00E3BDBA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		20D897F22776BE840008D63E /* Meals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meals.swift; sourceTree = "<group>"; };
 		20D897F42776C58E0008D63E /* meals.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = meals.json; path = Media/meals.json; sourceTree = SOURCE_ROOT; };
+		20D897F62777C9E50008D63E /* WorldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				2016FB482774F30E00E3BDBA /* HeritageApp.swift */,
+				20D897F62777C9E50008D63E /* WorldView.swift */,
 				2016FB4A2774F30E00E3BDBA /* ContentView.swift */,
 				20D897F22776BE840008D63E /* Meals.swift */,
 				2011182D27764FC90045A32E /* Meal.swift */,
@@ -149,6 +152,7 @@
 			files = (
 				20D897F32776BE840008D63E /* Meals.swift in Sources */,
 				2016FB4B2774F30E00E3BDBA /* ContentView.swift in Sources */,
+				20D897F72777C9E50008D63E /* WorldView.swift in Sources */,
 				2011182E27764FC90045A32E /* Meal.swift in Sources */,
 				2016FB492774F30E00E3BDBA /* HeritageApp.swift in Sources */,
 			);

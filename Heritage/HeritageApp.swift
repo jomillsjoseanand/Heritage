@@ -15,6 +15,18 @@ struct HeritageApp: App {
                 NavigationView {
                     ContentView(meal: Meals().primary)
                 }
+                .tabItem {
+                    Image(systemName: "map.fill")
+                    Text("Explore")
+                }
+                .tabItem {
+                    Image(systemName: "magnifyingglass.circle")
+                    Text("Search")
+                }
+                .tabItem {
+                    Image(systemName: "person.fill")
+                    Text("Settings")
+                }
             }
         }
     }
