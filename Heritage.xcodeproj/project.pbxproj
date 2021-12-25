@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2011182E27764FC90045A32E /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2011182D27764FC90045A32E /* Meal.swift */; };
 		2016FB492774F30E00E3BDBA /* HeritageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2016FB482774F30E00E3BDBA /* HeritageApp.swift */; };
 		2016FB4B2774F30E00E3BDBA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2016FB4A2774F30E00E3BDBA /* ContentView.swift */; };
 		2016FB4D2774F30F00E3BDBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2016FB4C2774F30F00E3BDBA /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2011182D27764FC90045A32E /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 		2016FB452774F30E00E3BDBA /* Heritage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Heritage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2016FB482774F30E00E3BDBA /* HeritageApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeritageApp.swift; sourceTree = "<group>"; };
 		2016FB4A2774F30E00E3BDBA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 			children = (
 				2016FB482774F30E00E3BDBA /* HeritageApp.swift */,
 				2016FB4A2774F30E00E3BDBA /* ContentView.swift */,
+				2011182D27764FC90045A32E /* Meal.swift */,
 				2016FB4C2774F30F00E3BDBA /* Assets.xcassets */,
 				2016FB4E2774F30F00E3BDBA /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2016FB4B2774F30E00E3BDBA /* ContentView.swift in Sources */,
+				2011182E27764FC90045A32E /* Meal.swift in Sources */,
 				2016FB492774F30E00E3BDBA /* HeritageApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
