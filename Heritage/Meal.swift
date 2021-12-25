@@ -7,13 +7,13 @@
 
 import Foundation
 
-struct Meal {
+struct Meal: Decodable {
     let id: Int
     let name: String
     let description: String
     let price: Double
     let place: String
-    let latitude: Double
-    let longitude: Double
+
+    static let final = Meal(id: 1, name: "Butter Chicken", description: "Delicious chicken cooked in tomato paste and butter.", price: 12.99, place: "Kitchener")
 }
  

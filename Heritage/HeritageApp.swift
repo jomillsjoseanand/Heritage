@@ -11,7 +11,11 @@ import SwiftUI
 struct HeritageApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabView{
+                NavigationView {
+                    ContentView(meal: Meals().primary)
+                }
+            }
         }
     }
 }

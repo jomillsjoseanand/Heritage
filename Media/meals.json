@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name": "Butter Chicker",
+        "description": "Delicious chicken cooked in tomato paste and butter.",
+        "price": 12.99,
+        "place": "Waterloo"
+    },
+    {
+        "id": 2,
+        "name": "Poutine",
+        "description": "Fries with gravy.",
+        "price": 5.47,
+        "place": "Kitchener"
+    },
+    {
+        "id": 3,
+        "name": "Peanut Buttercups",
+        "description": "Peanut butter-filled chocolate cups.",
+        "price": 7.99,
+        "place": "Conestoga"
+    },
+    {
+        "id": 4,
+        "name": "Shawarma Mandi",
+        "description": "Slow cooked rice with shawarma meat.",
+        "price": 14.69,
+        "place": "Waterloo"
+    },
+    {
+        "id": 5,
+        "name": "Jelly Bears",
+        "description": "Gelatinous multicoloured jelly gummy bears.",
+        "price": 4.20,
+        "place": "Cambridge"
+    }
+]

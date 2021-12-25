@@ -12,6 +12,8 @@
 		2016FB4B2774F30E00E3BDBA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2016FB4A2774F30E00E3BDBA /* ContentView.swift */; };
 		2016FB4D2774F30F00E3BDBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2016FB4C2774F30F00E3BDBA /* Assets.xcassets */; };
 		2016FB502774F30F00E3BDBA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2016FB4F2774F30F00E3BDBA /* Preview Assets.xcassets */; };
+		20D897F32776BE840008D63E /* Meals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D897F22776BE840008D63E /* Meals.swift */; };
+		20D897F52776C58E0008D63E /* meals.json in Resources */ = {isa = PBXBuildFile; fileRef = 20D897F42776C58E0008D63E /* meals.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		2016FB4A2774F30E00E3BDBA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2016FB4C2774F30F00E3BDBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2016FB4F2774F30F00E3BDBA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		20D897F22776BE840008D63E /* Meals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meals.swift; sourceTree = "<group>"; };
+		20D897F42776C58E0008D63E /* meals.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = meals.json; path = Media/meals.json; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			children = (
 				2016FB482774F30E00E3BDBA /* HeritageApp.swift */,
 				2016FB4A2774F30E00E3BDBA /* ContentView.swift */,
+				20D897F22776BE840008D63E /* Meals.swift */,
 				2011182D27764FC90045A32E /* Meal.swift */,
+				20D897F42776C58E0008D63E /* meals.json */,
 				2016FB4C2774F30F00E3BDBA /* Assets.xcassets */,
 				2016FB4E2774F30F00E3BDBA /* Preview Content */,
 			);
@@ -129,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2016FB502774F30F00E3BDBA /* Preview Assets.xcassets in Resources */,
+				20D897F52776C58E0008D63E /* meals.json in Resources */,
 				2016FB4D2774F30F00E3BDBA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20D897F32776BE840008D63E /* Meals.swift in Sources */,
 				2016FB4B2774F30E00E3BDBA /* ContentView.swift in Sources */,
 				2011182E27764FC90045A32E /* Meal.swift in Sources */,
 				2016FB492774F30E00E3BDBA /* HeritageApp.swift in Sources */,
