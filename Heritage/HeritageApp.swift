@@ -9,15 +9,20 @@ import SwiftUI
 
 @main
 struct HeritageApp: App {
+    @StateObject var meals = Meals()
+    
     var body: some Scene {
         WindowGroup {
             TabView{
                 NavigationView {
-                    ContentView(meal: Meals().primary)
+                    ContentView(meal: meals.primary)
                 }
                 .tabItem {
                     Image(systemName: "map.fill")
                     Text("Explore")
+                }
+                NavigationView {
+                    WorldView()
                 }
                 .tabItem {
                     Image(systemName: "magnifyingglass.circle")
@@ -28,6 +33,7 @@ struct HeritageApp: App {
                     Text("Settings")
                 }
             }
+            .environmentObject(meals)
         }
     }
 }

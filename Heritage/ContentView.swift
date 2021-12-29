@@ -10,16 +10,6 @@ import SwiftUI
 struct ContentView: View {
     let meal: Meal
     var body: some View {
-//        VStack {
-//            Image("Logo")
-//                .resizable()
-//                .scaledToFit()
-//            Text("HERITAGE")
-//                .font(.title)
-//                .fontWeight(.bold)
-//                .foregroundColor(Color(hue: 0.562, saturation: 1.0, brightness: 1.0))
-//                .multilineTextAlignment(.center)
-//        }
         VStack{
             Text(meal.name)
                 .bold()

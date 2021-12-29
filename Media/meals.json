@@ -4,34 +4,44 @@
         "name": "Butter Chicken",
         "description": "Delicious chicken cooked in tomato paste and butter.",
         "price": 12.99,
-        "place": "Waterloo"
+        "place": "Waterloo",
+        "latitude": 43.4643,
+        "longitude": -80.5204
     },
     {
         "id": 2,
         "name": "Poutine",
         "description": "Fries with gravy.",
         "price": 5.47,
-        "place": "Kitchener"
+        "place": "Kitchener",
+        "latitude": 42.4643,
+        "longitude": -80.5204
     },
     {
         "id": 3,
         "name": "Peanut Buttercups",
         "description": "Peanut butter-filled chocolate cups.",
         "price": 7.99,
-        "place": "Conestoga"
+        "place": "Conestoga",
+        "latitude": 41.4643,
+        "longitude": -80.5204
     },
     {
         "id": 4,
         "name": "Shawarma Mandi",
         "description": "Slow cooked rice with shawarma meat.",
         "price": 14.69,
-        "place": "Waterloo"
+        "place": "Waterloo",
+        "latitude": 43.4643,
+        "longitude": -81.5204
     },
     {
         "id": 5,
         "name": "Jelly Bears",
         "description": "Gelatinous multicoloured jelly gummy bears.",
         "price": 4.20,
-        "place": "Cambridge"
+        "place": "Cambridge",
+        "latitude": 43.4643,
+        "longitude": -82.5204
     }
 ]
