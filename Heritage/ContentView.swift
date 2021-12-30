@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     let meal: Meal
+    
     var body: some View {
         VStack{
             Text(meal.name)
